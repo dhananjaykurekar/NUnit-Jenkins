@@ -21,5 +21,15 @@ namespace NunitTest_Jenkins.Tests
 
             Assert.AreEqual(5, result);
         }
+
+        [Test]
+        public void AdditionFail()
+        {
+            var obj = new NewAppService();
+
+            var result = obj.Add(2, 3);
+
+            Assert.AreEqual(6, result);
+        }
     }
 }
