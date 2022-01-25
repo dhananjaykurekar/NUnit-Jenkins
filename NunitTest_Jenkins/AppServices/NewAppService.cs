@@ -11,5 +11,10 @@ namespace NunitTest_Jenkins.AppServices
         {
             return a + b;
         }
+
+        public int Sub(int a, int b)
+        {
+            return a - b;
+        }
     }
 }
